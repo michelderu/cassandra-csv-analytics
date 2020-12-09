@@ -1,0 +1,115 @@
+DEBUG 2020-12-04 09:28:33,824 ServiceRunner.java:220 - Service SPARK-MASTER FAILED changing state: SHUTTING_DOWN -> NOT_STARTED
+INFO  2020-12-04 09:28:35,113 Logging.scala:54 - Changing view acls to: dse
+INFO  2020-12-04 09:28:35,127 Logging.scala:54 - Changing modify acls to: dse
+INFO  2020-12-04 09:28:35,139 Logging.scala:54 - Changing view acls groups to: 
+INFO  2020-12-04 09:28:35,154 Logging.scala:54 - Changing modify acls groups to: 
+INFO  2020-12-04 09:28:35,162 Logging.scala:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dse); groups with view permissions: Set(); users  with modify permissions: Set(dse); groups with modify permissions: Set()
+INFO  2020-12-04 09:28:36,837 Logging.scala:54 - Successfully started service 'MasterUI' on port 7080.
+INFO  2020-12-04 09:28:37,063 Logging.scala:54 - Bound MasterRedirectingUI to 0.0.0.0, and started at http://e33fdfff5111:7080
+INFO  2020-12-04 09:28:37,076 Logging.scala:35 - Bound redirecting UI
+DEBUG 2020-12-04 09:28:37,086 ServiceRunner.java:198 - Service SPARK-MASTER state is: NOT_STARTED
+DEBUG 2020-12-04 09:28:38,135 ServiceRunner.java:198 - Service SPARK-MASTER state is: NOT_STARTED
+DEBUG 2020-12-04 09:28:39,143 ServiceRunner.java:198 - Service SPARK-MASTER state is: NOT_STARTED
+DEBUG 2020-12-04 09:28:40,147 ServiceRunner.java:198 - Service SPARK-MASTER state is: NOT_STARTED
+DEBUG 2020-12-04 09:28:41,150 ServiceRunner.java:198 - Service SPARK-MASTER state is: NOT_STARTED
+DEBUG 2020-12-04 09:28:42,153 ServiceRunner.java:198 - Service SPARK-MASTER state is: NOT_STARTED
+DEBUG 2020-12-04 09:28:43,163 ServiceRunner.java:198 - Service SPARK-MASTER state is: NOT_STARTED
+DEBUG 2020-12-04 09:28:44,166 ServiceRunner.java:198 - Service SPARK-MASTER state is: NOT_STARTED
+INFO  2020-12-04 09:28:45,212 Logging.scala:35 - Stopped redirecting UI
+INFO  2020-12-04 09:28:45,217 Logging.scala:35 - Awaiting LOCAL_QUORUM for Spark Master recovery storage
+DEBUG 2020-12-04 09:28:45,350 ServiceRunner.java:216 - Service SPARK-MASTER changing state: NOT_STARTED -> STARTING
+DEBUG 2020-12-04 09:28:45,352 ServiceRunner.java:206 - Service SPARK-MASTER set state: NOT_STARTED -> STARTING
+INFO  2020-12-04 09:28:45,354 Logging.scala:35 - Starting SPARK-MASTER service...
+INFO  2020-12-04 09:28:45,406 Logging.scala:54 - Changing view acls to: dse
+INFO  2020-12-04 09:28:45,409 Logging.scala:54 - Changing modify acls to: dse
+INFO  2020-12-04 09:28:45,413 Logging.scala:54 - Changing view acls groups to: 
+INFO  2020-12-04 09:28:45,416 Logging.scala:54 - Changing modify acls groups to: 
+INFO  2020-12-04 09:28:45,418 Logging.scala:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dse); groups with view permissions: Set(); users  with modify permissions: Set(dse); groups with modify permissions: Set()
+INFO  2020-12-04 09:28:45,900 Logging.scala:54 - Successfully started service 'sparkMaster' on port 7077.
+DEBUG 2020-12-04 09:28:46,804 ServiceRunner.java:216 - Service SPARK-MASTER changing state: STARTING -> RUNNING
+DEBUG 2020-12-04 09:28:46,807 ServiceRunner.java:206 - Service SPARK-MASTER set state: STARTING -> RUNNING
+INFO  2020-12-04 09:28:46,811 Logging.scala:35 - SPARK-MASTER service is running
+INFO  2020-12-04 09:55:01,376 Logging.scala:35 - SPARK-MASTER service finished
+DEBUG 2020-12-04 09:55:01,379 ServiceRunner.java:198 - Service SPARK-MASTER state is: SHUTTING_DOWN
+DEBUG 2020-12-04 09:55:01,380 ServiceRunner.java:198 - Service SPARK-MASTER state is: SHUTTING_DOWN
+DEBUG 2020-12-04 09:55:01,382 ServiceRunner.java:220 - Service SPARK-MASTER FAILED changing state: NOT_STARTED -> SHUTTING_DOWN
+DEBUG 2020-12-04 09:55:01,383 ServiceRunner.java:220 - Service SPARK-MASTER FAILED changing state: STARTING -> SHUTTING_DOWN
+DEBUG 2020-12-04 09:55:01,384 ServiceRunner.java:220 - Service SPARK-MASTER FAILED changing state: RUNNING -> SHUTTING_DOWN
+DEBUG 2020-12-04 09:55:01,385 ServiceRunner.java:216 - Service SPARK-MASTER changing state: SHUTTING_DOWN -> TERMINATED
+DEBUG 2020-12-04 09:55:01,387 ServiceRunner.java:206 - Service SPARK-MASTER set state: SHUTTING_DOWN -> TERMINATED
+DEBUG 2020-12-04 09:57:45,978 ServiceRunner.java:220 - Service SPARK-MASTER FAILED changing state: SHUTTING_DOWN -> NOT_STARTED
+INFO  2020-12-04 09:57:46,904 Logging.scala:54 - Changing view acls to: dse
+INFO  2020-12-04 09:57:46,913 Logging.scala:54 - Changing modify acls to: dse
+INFO  2020-12-04 09:57:46,919 Logging.scala:54 - Changing view acls groups to: 
+INFO  2020-12-04 09:57:46,928 Logging.scala:54 - Changing modify acls groups to: 
+INFO  2020-12-04 09:57:46,933 Logging.scala:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dse); groups with view permissions: Set(); users  with modify permissions: Set(dse); groups with modify permissions: Set()
+INFO  2020-12-04 09:57:48,146 Logging.scala:54 - Successfully started service 'MasterUI' on port 7080.
+INFO  2020-12-04 09:57:48,247 Logging.scala:54 - Bound MasterRedirectingUI to 0.0.0.0, and started at http://588fddfe3832:7080
+INFO  2020-12-04 09:57:48,254 Logging.scala:35 - Bound redirecting UI
+DEBUG 2020-12-04 09:57:48,258 ServiceRunner.java:198 - Service SPARK-MASTER state is: NOT_STARTED
+DEBUG 2020-12-04 09:57:49,261 ServiceRunner.java:198 - Service SPARK-MASTER state is: NOT_STARTED
+DEBUG 2020-12-04 09:57:50,263 ServiceRunner.java:198 - Service SPARK-MASTER state is: NOT_STARTED
+DEBUG 2020-12-04 09:57:51,268 ServiceRunner.java:198 - Service SPARK-MASTER state is: NOT_STARTED
+DEBUG 2020-12-04 09:57:52,270 ServiceRunner.java:198 - Service SPARK-MASTER state is: NOT_STARTED
+DEBUG 2020-12-04 09:57:53,273 ServiceRunner.java:198 - Service SPARK-MASTER state is: NOT_STARTED
+DEBUG 2020-12-04 09:57:54,275 ServiceRunner.java:198 - Service SPARK-MASTER state is: NOT_STARTED
+DEBUG 2020-12-04 09:57:55,278 ServiceRunner.java:198 - Service SPARK-MASTER state is: NOT_STARTED
+INFO  2020-12-04 09:57:56,334 Logging.scala:35 - Stopped redirecting UI
+INFO  2020-12-04 09:57:56,343 Logging.scala:35 - Awaiting LOCAL_QUORUM for Spark Master recovery storage
+DEBUG 2020-12-04 09:57:56,488 ServiceRunner.java:216 - Service SPARK-MASTER changing state: NOT_STARTED -> STARTING
+DEBUG 2020-12-04 09:57:56,491 ServiceRunner.java:206 - Service SPARK-MASTER set state: NOT_STARTED -> STARTING
+INFO  2020-12-04 09:57:56,500 Logging.scala:35 - Starting SPARK-MASTER service...
+INFO  2020-12-04 09:57:56,532 Logging.scala:54 - Changing view acls to: dse
+INFO  2020-12-04 09:57:56,534 Logging.scala:54 - Changing modify acls to: dse
+INFO  2020-12-04 09:57:56,542 Logging.scala:54 - Changing view acls groups to: 
+INFO  2020-12-04 09:57:56,546 Logging.scala:54 - Changing modify acls groups to: 
+INFO  2020-12-04 09:57:56,561 Logging.scala:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dse); groups with view permissions: Set(); users  with modify permissions: Set(dse); groups with modify permissions: Set()
+INFO  2020-12-04 09:57:56,703 Logging.scala:54 - Successfully started service 'sparkMaster' on port 7077.
+DEBUG 2020-12-04 09:57:57,288 ServiceRunner.java:216 - Service SPARK-MASTER changing state: STARTING -> RUNNING
+DEBUG 2020-12-04 09:57:57,289 ServiceRunner.java:206 - Service SPARK-MASTER set state: STARTING -> RUNNING
+INFO  2020-12-04 09:57:57,290 Logging.scala:35 - SPARK-MASTER service is running
+INFO  2020-12-07 10:16:42,626 Logging.scala:35 - SPARK-MASTER service finished
+DEBUG 2020-12-07 10:16:42,663 ServiceRunner.java:198 - Service SPARK-MASTER state is: SHUTTING_DOWN
+DEBUG 2020-12-07 10:16:42,665 ServiceRunner.java:198 - Service SPARK-MASTER state is: SHUTTING_DOWN
+DEBUG 2020-12-07 10:16:42,667 ServiceRunner.java:220 - Service SPARK-MASTER FAILED changing state: NOT_STARTED -> SHUTTING_DOWN
+DEBUG 2020-12-07 10:16:42,668 ServiceRunner.java:220 - Service SPARK-MASTER FAILED changing state: STARTING -> SHUTTING_DOWN
+DEBUG 2020-12-07 10:16:42,669 ServiceRunner.java:220 - Service SPARK-MASTER FAILED changing state: RUNNING -> SHUTTING_DOWN
+DEBUG 2020-12-07 10:16:42,670 ServiceRunner.java:216 - Service SPARK-MASTER changing state: SHUTTING_DOWN -> TERMINATED
+DEBUG 2020-12-07 10:16:42,671 ServiceRunner.java:206 - Service SPARK-MASTER set state: SHUTTING_DOWN -> TERMINATED
+DEBUG 2020-12-07 10:21:57,455 ServiceRunner.java:220 - Service SPARK-MASTER FAILED changing state: SHUTTING_DOWN -> NOT_STARTED
+INFO  2020-12-07 10:21:58,138 Logging.scala:54 - Changing view acls to: dse
+INFO  2020-12-07 10:21:58,142 Logging.scala:54 - Changing modify acls to: dse
+INFO  2020-12-07 10:21:58,147 Logging.scala:54 - Changing view acls groups to: 
+INFO  2020-12-07 10:21:58,152 Logging.scala:54 - Changing modify acls groups to: 
+INFO  2020-12-07 10:21:58,156 Logging.scala:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dse); groups with view permissions: Set(); users  with modify permissions: Set(dse); groups with modify permissions: Set()
+INFO  2020-12-07 10:21:58,813 Logging.scala:54 - Successfully started service 'MasterUI' on port 7080.
+INFO  2020-12-07 10:21:58,871 Logging.scala:54 - Bound MasterRedirectingUI to 0.0.0.0, and started at http://24b44898981b:7080
+INFO  2020-12-07 10:21:58,875 Logging.scala:35 - Bound redirecting UI
+DEBUG 2020-12-07 10:21:58,878 ServiceRunner.java:198 - Service SPARK-MASTER state is: NOT_STARTED
+DEBUG 2020-12-07 10:21:59,879 ServiceRunner.java:198 - Service SPARK-MASTER state is: NOT_STARTED
+DEBUG 2020-12-07 10:22:00,881 ServiceRunner.java:198 - Service SPARK-MASTER state is: NOT_STARTED
+DEBUG 2020-12-07 10:22:01,882 ServiceRunner.java:198 - Service SPARK-MASTER state is: NOT_STARTED
+DEBUG 2020-12-07 10:22:02,884 ServiceRunner.java:198 - Service SPARK-MASTER state is: NOT_STARTED
+DEBUG 2020-12-07 10:22:03,864 ServiceRunner.java:198 - Service SPARK-MASTER state is: NOT_STARTED
+INFO  2020-12-07 10:22:04,896 Logging.scala:35 - Stopped redirecting UI
+INFO  2020-12-07 10:22:04,901 Logging.scala:35 - Awaiting LOCAL_QUORUM for Spark Master recovery storage
+DEBUG 2020-12-07 10:22:04,970 ServiceRunner.java:216 - Service SPARK-MASTER changing state: NOT_STARTED -> STARTING
+DEBUG 2020-12-07 10:22:04,971 ServiceRunner.java:206 - Service SPARK-MASTER set state: NOT_STARTED -> STARTING
+INFO  2020-12-07 10:22:04,973 Logging.scala:35 - Starting SPARK-MASTER service...
+INFO  2020-12-07 10:22:05,006 Logging.scala:54 - Changing view acls to: dse
+INFO  2020-12-07 10:22:05,008 Logging.scala:54 - Changing modify acls to: dse
+INFO  2020-12-07 10:22:05,010 Logging.scala:54 - Changing view acls groups to: 
+INFO  2020-12-07 10:22:05,011 Logging.scala:54 - Changing modify acls groups to: 
+INFO  2020-12-07 10:22:05,014 Logging.scala:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dse); groups with view permissions: Set(); users  with modify permissions: Set(dse); groups with modify permissions: Set()
+INFO  2020-12-07 10:22:05,223 Logging.scala:54 - Successfully started service 'sparkMaster' on port 7077.
+DEBUG 2020-12-07 10:22:05,519 ServiceRunner.java:216 - Service SPARK-MASTER changing state: STARTING -> RUNNING
+DEBUG 2020-12-07 10:22:05,520 ServiceRunner.java:206 - Service SPARK-MASTER set state: STARTING -> RUNNING
+INFO  2020-12-07 10:22:05,521 Logging.scala:35 - SPARK-MASTER service is running
+INFO  2020-12-09 10:27:44,806 Logging.scala:35 - SPARK-MASTER service finished
+DEBUG 2020-12-09 10:27:44,818 ServiceRunner.java:198 - Service SPARK-MASTER state is: SHUTTING_DOWN
+DEBUG 2020-12-09 10:27:44,820 ServiceRunner.java:198 - Service SPARK-MASTER state is: SHUTTING_DOWN
+DEBUG 2020-12-09 10:27:44,822 ServiceRunner.java:220 - Service SPARK-MASTER FAILED changing state: NOT_STARTED -> SHUTTING_DOWN
+DEBUG 2020-12-09 10:27:44,824 ServiceRunner.java:220 - Service SPARK-MASTER FAILED changing state: STARTING -> SHUTTING_DOWN
+DEBUG 2020-12-09 10:27:44,825 ServiceRunner.java:220 - Service SPARK-MASTER FAILED changing state: RUNNING -> SHUTTING_DOWN
+DEBUG 2020-12-09 10:27:44,827 ServiceRunner.java:216 - Service SPARK-MASTER changing state: SHUTTING_DOWN -> TERMINATED
+DEBUG 2020-12-09 10:27:44,828 ServiceRunner.java:206 - Service SPARK-MASTER set state: SHUTTING_DOWN -> TERMINATED

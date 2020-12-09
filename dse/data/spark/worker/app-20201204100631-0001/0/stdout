@@ -1,0 +1,118 @@
+INFO  2020-12-04 10:06:37,730 org.apache.spark.executor.DseExecutorBackend: Started daemon with process name: 3541@588fddfe3832
+INFO  2020-12-04 10:06:37,742 org.apache.spark.util.SignalUtils: Registered signal handler for TERM
+INFO  2020-12-04 10:06:37,744 org.apache.spark.util.SignalUtils: Registered signal handler for HUP
+INFO  2020-12-04 10:06:37,744 org.apache.spark.util.SignalUtils: Registered signal handler for INT
+INFO  2020-12-04 10:06:39,391 org.apache.spark.deploy.worker.DseWorkerWatcher: Connecting to worker /172.17.0.2:44889
+INFO  2020-12-04 10:06:39,589 org.apache.spark.SecurityManager: Changing view acls to: dse
+INFO  2020-12-04 10:06:39,591 org.apache.spark.SecurityManager: Changing modify acls to: dse
+INFO  2020-12-04 10:06:39,593 org.apache.spark.SecurityManager: Changing view acls groups to: 
+INFO  2020-12-04 10:06:39,594 org.apache.spark.SecurityManager: Changing modify acls groups to: 
+INFO  2020-12-04 10:06:39,596 org.apache.spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dse); groups with view permissions: Set(); users  with modify permissions: Set(dse); groups with modify permissions: Set()
+INFO  2020-12-04 10:06:40,679 org.apache.spark.network.client.TransportClientFactory: Successfully created connection to 588fddfe3832/172.17.0.2:42301 after 347 ms (0 ms spent in bootstraps)
+INFO  2020-12-04 10:06:41,050 org.apache.spark.SecurityManager: Changing view acls to: dse
+INFO  2020-12-04 10:06:41,050 org.apache.spark.SecurityManager: Changing modify acls to: dse
+INFO  2020-12-04 10:06:41,051 org.apache.spark.SecurityManager: Changing view acls groups to: 
+INFO  2020-12-04 10:06:41,051 org.apache.spark.SecurityManager: Changing modify acls groups to: 
+INFO  2020-12-04 10:06:41,052 org.apache.spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dse); groups with view permissions: Set(); users  with modify permissions: Set(dse); groups with modify permissions: Set()
+INFO  2020-12-04 10:06:41,315 org.apache.spark.network.client.TransportClientFactory: Successfully created connection to 588fddfe3832/172.17.0.2:42301 after 16 ms (0 ms spent in bootstraps)
+INFO  2020-12-04 10:06:41,438 org.apache.spark.storage.DiskBlockManager: Created local directory at /var/lib/spark/rdd/spark-3fe8c26a-1e10-4b5a-885e-820a369938c1/executor-d3439c62-29ee-461d-8e25-7135298ce046/blockmgr-d61dde47-2258-40cb-a4a3-665da7b0059d
+INFO  2020-12-04 10:06:41,532 org.apache.spark.storage.memory.MemoryStore: MemoryStore started with capacity 366.3 MB
+INFO  2020-12-04 10:06:42,388 org.apache.spark.executor.CoarseGrainedExecutorBackend: Connecting to driver: spark://CoarseGrainedScheduler@588fddfe3832:42301
+INFO  2020-12-04 10:06:42,909 org.apache.spark.executor.CoarseGrainedExecutorBackend: Successfully registered with driver
+INFO  2020-12-04 10:06:42,915 org.apache.spark.executor.Executor: Starting executor ID 0 on host 172.17.0.2
+INFO  2020-12-04 10:06:43,246 org.apache.spark.util.Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 37669.
+INFO  2020-12-04 10:06:43,249 org.apache.spark.network.netty.NettyBlockTransferService: Server created on 172.17.0.2:37669
+INFO  2020-12-04 10:06:43,258 org.apache.spark.storage.BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+INFO  2020-12-04 10:06:43,351 org.apache.spark.storage.BlockManagerMaster: Registering BlockManager BlockManagerId(0, 172.17.0.2, 37669, None)
+INFO  2020-12-04 10:06:43,381 org.apache.spark.storage.BlockManagerMaster: Registered BlockManager BlockManagerId(0, 172.17.0.2, 37669, None)
+INFO  2020-12-04 10:06:43,382 org.apache.spark.storage.BlockManager: external shuffle service port = 7437
+INFO  2020-12-04 10:06:43,384 org.apache.spark.storage.BlockManager: Registering executor with local external shuffle service.
+INFO  2020-12-04 10:06:43,402 org.apache.spark.network.client.TransportClientFactory: Successfully created connection to /172.17.0.2:7437 after 13 ms (0 ms spent in bootstraps)
+INFO  2020-12-04 10:06:43,436 org.apache.spark.storage.BlockManager: Initialized BlockManager: BlockManagerId(0, 172.17.0.2, 37669, None)
+INFO  2020-12-04 10:30:46,247 org.apache.spark.executor.CoarseGrainedExecutorBackend: Got assigned task 0
+INFO  2020-12-04 10:30:46,260 org.apache.spark.executor.CoarseGrainedExecutorBackend: Got assigned task 1
+INFO  2020-12-04 10:30:46,262 org.apache.spark.executor.CoarseGrainedExecutorBackend: Got assigned task 2
+INFO  2020-12-04 10:30:46,281 org.apache.spark.executor.Executor: Running task 0.0 in stage 0.0 (TID 0)
+INFO  2020-12-04 10:30:46,282 org.apache.spark.executor.Executor: Running task 2.0 in stage 0.0 (TID 2)
+INFO  2020-12-04 10:30:46,284 org.apache.spark.executor.Executor: Running task 1.0 in stage 0.0 (TID 1)
+INFO  2020-12-04 10:30:46,516 org.apache.spark.broadcast.TorrentBroadcast: Started reading broadcast variable 0
+INFO  2020-12-04 10:30:46,616 org.apache.spark.network.client.TransportClientFactory: Successfully created connection to 588fddfe3832/172.17.0.2:44219 after 2 ms (0 ms spent in bootstraps)
+INFO  2020-12-04 10:30:46,744 org.apache.spark.storage.memory.MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 7.3 KB, free 366.3 MB)
+INFO  2020-12-04 10:30:46,768 org.apache.spark.broadcast.TorrentBroadcast: Reading broadcast variable 0 took 252 ms
+INFO  2020-12-04 10:30:46,895 org.apache.spark.storage.memory.MemoryStore: Block broadcast_0 stored as values in memory (estimated size 14.9 KB, free 366.3 MB)
+INFO  2020-12-04 10:30:47,450 com.datastax.driver.core: DataStax Java Driver 1.10.0-dse+20200217 for DataStax Enterprise (DSE) and Apache Cassandra®
+INFO  2020-12-04 10:30:47,471 com.datastax.driver.core.GuavaCompatibility: Detected Guava >= 19 in the classpath, using modern compatibility layer
+INFO  2020-12-04 10:30:47,873 com.datastax.driver.core.ClockFactory: Using native clock to generate timestamps.
+INFO  2020-12-04 10:30:48,063 com.datastax.driver.core.ClockFactory: Using native clock to generate timestamps.
+INFO  2020-12-04 10:30:48,443 com.datastax.driver.core.utils.UUIDs: PID obtained through native call to getpid(): 3541
+INFO  2020-12-04 10:30:48,552 com.datastax.driver.core.NettyUtil: Found Netty's native epoll transport in the classpath, using it
+INFO  2020-12-04 10:30:49,152 com.datastax.driver.core.Cluster: New Cassandra host 588fddfe3832/172.17.0.2:9042 added
+INFO  2020-12-04 10:30:49,154 com.datastax.spark.connector.cql.CassandraConnector: Connected to Cassandra cluster: Test Cluster
+INFO  2020-12-04 10:30:50,437 org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator: Code generated in 487.232 ms
+INFO  2020-12-04 10:30:53,294 org.apache.spark.executor.Executor: Finished task 0.0 in stage 0.0 (TID 0). 1895 bytes result sent to driver
+INFO  2020-12-04 10:30:53,295 org.apache.spark.executor.Executor: Finished task 2.0 in stage 0.0 (TID 2). 1404 bytes result sent to driver
+INFO  2020-12-04 10:30:53,295 org.apache.spark.executor.Executor: Finished task 1.0 in stage 0.0 (TID 1). 3518 bytes result sent to driver
+INFO  2020-12-04 10:30:53,329 org.apache.spark.executor.CoarseGrainedExecutorBackend: Got assigned task 3
+INFO  2020-12-04 10:30:53,330 org.apache.spark.executor.Executor: Running task 3.0 in stage 0.0 (TID 3)
+INFO  2020-12-04 10:30:53,371 org.apache.spark.executor.CoarseGrainedExecutorBackend: Got assigned task 4
+INFO  2020-12-04 10:30:53,372 org.apache.spark.executor.Executor: Running task 4.0 in stage 0.0 (TID 4)
+INFO  2020-12-04 10:30:53,392 org.apache.spark.executor.CoarseGrainedExecutorBackend: Got assigned task 5
+INFO  2020-12-04 10:30:53,392 org.apache.spark.executor.Executor: Running task 5.0 in stage 0.0 (TID 5)
+INFO  2020-12-04 10:30:53,443 org.apache.spark.executor.Executor: Finished task 3.0 in stage 0.0 (TID 3). 1788 bytes result sent to driver
+INFO  2020-12-04 10:30:53,456 org.apache.spark.executor.Executor: Finished task 4.0 in stage 0.0 (TID 4). 1361 bytes result sent to driver
+INFO  2020-12-04 10:30:53,479 org.apache.spark.executor.Executor: Finished task 5.0 in stage 0.0 (TID 5). 2563 bytes result sent to driver
+INFO  2020-12-04 10:30:53,500 org.apache.spark.executor.CoarseGrainedExecutorBackend: Got assigned task 6
+INFO  2020-12-04 10:30:53,501 org.apache.spark.executor.Executor: Running task 6.0 in stage 0.0 (TID 6)
+INFO  2020-12-04 10:30:53,534 org.apache.spark.executor.Executor: Finished task 6.0 in stage 0.0 (TID 6). 2332 bytes result sent to driver
+INFO  2020-12-04 10:45:26,231 org.apache.spark.executor.CoarseGrainedExecutorBackend: Got assigned task 7
+INFO  2020-12-04 10:45:26,232 org.apache.spark.executor.CoarseGrainedExecutorBackend: Got assigned task 8
+INFO  2020-12-04 10:45:26,238 org.apache.spark.executor.CoarseGrainedExecutorBackend: Got assigned task 9
+INFO  2020-12-04 10:45:26,244 org.apache.spark.executor.Executor: Running task 1.0 in stage 1.0 (TID 8)
+INFO  2020-12-04 10:45:26,247 org.apache.spark.executor.Executor: Running task 0.0 in stage 1.0 (TID 7)
+INFO  2020-12-04 10:45:26,251 org.apache.spark.executor.Executor: Running task 2.0 in stage 1.0 (TID 9)
+INFO  2020-12-04 10:45:26,252 org.apache.spark.broadcast.TorrentBroadcast: Started reading broadcast variable 1
+INFO  2020-12-04 10:45:26,274 org.apache.spark.storage.memory.MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 7.3 KB, free 366.3 MB)
+INFO  2020-12-04 10:45:26,285 org.apache.spark.broadcast.TorrentBroadcast: Reading broadcast variable 1 took 33 ms
+INFO  2020-12-04 10:45:26,292 org.apache.spark.storage.memory.MemoryStore: Block broadcast_1 stored as values in memory (estimated size 14.9 KB, free 366.3 MB)
+INFO  2020-12-04 10:45:26,311 org.apache.spark.executor.Executor: Finished task 0.0 in stage 1.0 (TID 7). 1895 bytes result sent to driver
+INFO  2020-12-04 10:45:26,326 org.apache.spark.executor.CoarseGrainedExecutorBackend: Got assigned task 10
+INFO  2020-12-04 10:45:26,327 org.apache.spark.executor.Executor: Running task 3.0 in stage 1.0 (TID 10)
+INFO  2020-12-04 10:45:26,354 org.apache.spark.executor.Executor: Finished task 2.0 in stage 1.0 (TID 9). 1361 bytes result sent to driver
+INFO  2020-12-04 10:45:26,374 org.apache.spark.executor.CoarseGrainedExecutorBackend: Got assigned task 11
+INFO  2020-12-04 10:45:26,378 org.apache.spark.executor.Executor: Running task 4.0 in stage 1.0 (TID 11)
+INFO  2020-12-04 10:45:26,378 org.apache.spark.executor.Executor: Finished task 3.0 in stage 1.0 (TID 10). 1788 bytes result sent to driver
+INFO  2020-12-04 10:45:26,392 org.apache.spark.executor.CoarseGrainedExecutorBackend: Got assigned task 12
+INFO  2020-12-04 10:45:26,393 org.apache.spark.executor.Executor: Running task 5.0 in stage 1.0 (TID 12)
+INFO  2020-12-04 10:45:26,392 org.apache.spark.executor.Executor: Finished task 1.0 in stage 1.0 (TID 8). 3432 bytes result sent to driver
+INFO  2020-12-04 10:45:26,402 org.apache.spark.executor.CoarseGrainedExecutorBackend: Got assigned task 13
+INFO  2020-12-04 10:45:26,402 org.apache.spark.executor.Executor: Running task 6.0 in stage 1.0 (TID 13)
+INFO  2020-12-04 10:45:26,427 org.apache.spark.executor.Executor: Finished task 5.0 in stage 1.0 (TID 12). 2563 bytes result sent to driver
+INFO  2020-12-04 10:45:26,429 org.apache.spark.executor.Executor: Finished task 4.0 in stage 1.0 (TID 11). 1361 bytes result sent to driver
+INFO  2020-12-04 10:45:26,442 org.apache.spark.executor.Executor: Finished task 6.0 in stage 1.0 (TID 13). 2289 bytes result sent to driver
+INFO  2020-12-04 10:47:41,086 org.apache.spark.executor.CoarseGrainedExecutorBackend: Got assigned task 14
+INFO  2020-12-04 10:47:41,089 org.apache.spark.executor.CoarseGrainedExecutorBackend: Got assigned task 15
+INFO  2020-12-04 10:47:41,093 org.apache.spark.executor.CoarseGrainedExecutorBackend: Got assigned task 16
+INFO  2020-12-04 10:47:41,098 org.apache.spark.executor.Executor: Running task 1.0 in stage 2.0 (TID 15)
+INFO  2020-12-04 10:47:41,098 org.apache.spark.executor.Executor: Running task 2.0 in stage 2.0 (TID 16)
+INFO  2020-12-04 10:47:41,098 org.apache.spark.executor.Executor: Running task 0.0 in stage 2.0 (TID 14)
+INFO  2020-12-04 10:47:41,104 org.apache.spark.broadcast.TorrentBroadcast: Started reading broadcast variable 2
+INFO  2020-12-04 10:47:41,118 org.apache.spark.storage.memory.MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 7.3 KB, free 366.3 MB)
+INFO  2020-12-04 10:47:41,129 org.apache.spark.broadcast.TorrentBroadcast: Reading broadcast variable 2 took 25 ms
+INFO  2020-12-04 10:47:41,134 org.apache.spark.storage.memory.MemoryStore: Block broadcast_2 stored as values in memory (estimated size 14.9 KB, free 366.3 MB)
+INFO  2020-12-04 10:47:41,159 org.apache.spark.executor.Executor: Finished task 0.0 in stage 2.0 (TID 14). 1852 bytes result sent to driver
+INFO  2020-12-04 10:47:41,196 org.apache.spark.executor.Executor: Finished task 2.0 in stage 2.0 (TID 16). 1361 bytes result sent to driver
+INFO  2020-12-04 10:47:41,197 org.apache.spark.executor.CoarseGrainedExecutorBackend: Got assigned task 17
+INFO  2020-12-04 10:47:41,198 org.apache.spark.executor.Executor: Running task 3.0 in stage 2.0 (TID 17)
+INFO  2020-12-04 10:47:41,210 org.apache.spark.executor.CoarseGrainedExecutorBackend: Got assigned task 18
+INFO  2020-12-04 10:47:41,210 org.apache.spark.executor.Executor: Running task 4.0 in stage 2.0 (TID 18)
+INFO  2020-12-04 10:47:41,228 org.apache.spark.executor.Executor: Finished task 1.0 in stage 2.0 (TID 15). 3432 bytes result sent to driver
+INFO  2020-12-04 10:47:41,235 org.apache.spark.executor.CoarseGrainedExecutorBackend: Got assigned task 19
+INFO  2020-12-04 10:47:41,236 org.apache.spark.executor.Executor: Running task 5.0 in stage 2.0 (TID 19)
+INFO  2020-12-04 10:47:41,239 org.apache.spark.executor.Executor: Finished task 3.0 in stage 2.0 (TID 17). 1788 bytes result sent to driver
+INFO  2020-12-04 10:47:41,244 org.apache.spark.executor.CoarseGrainedExecutorBackend: Got assigned task 20
+INFO  2020-12-04 10:47:41,244 org.apache.spark.executor.Executor: Running task 6.0 in stage 2.0 (TID 20)
+INFO  2020-12-04 10:47:41,250 org.apache.spark.executor.Executor: Finished task 4.0 in stage 2.0 (TID 18). 1404 bytes result sent to driver
+INFO  2020-12-04 10:47:41,282 org.apache.spark.executor.Executor: Finished task 5.0 in stage 2.0 (TID 19). 2563 bytes result sent to driver
+INFO  2020-12-04 10:47:41,295 org.apache.spark.executor.Executor: Finished task 6.0 in stage 2.0 (TID 20). 2289 bytes result sent to driver
+INFO  2020-12-04 11:47:41,429 com.datastax.spark.connector.cql.CassandraConnector: Disconnected from Cassandra cluster: Test Cluster
+INFO  2020-12-04 12:54:42,612 com.datastax.bdp.util.DseThreadUtils$: java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFuture

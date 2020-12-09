@@ -1,0 +1,33 @@
+INFO  2020-12-06 12:46:58,872 org.apache.spark.executor.DseExecutorBackend: Started daemon with process name: 17453@588fddfe3832
+INFO  2020-12-06 12:46:58,954 org.apache.spark.util.SignalUtils: Registered signal handler for TERM
+INFO  2020-12-06 12:46:58,965 org.apache.spark.util.SignalUtils: Registered signal handler for HUP
+INFO  2020-12-06 12:46:58,966 org.apache.spark.util.SignalUtils: Registered signal handler for INT
+INFO  2020-12-06 12:47:05,108 org.apache.spark.deploy.worker.DseWorkerWatcher: Connecting to worker /172.17.0.2:44889
+INFO  2020-12-06 12:47:05,254 org.apache.spark.SecurityManager: Changing view acls to: dse
+INFO  2020-12-06 12:47:05,258 org.apache.spark.SecurityManager: Changing modify acls to: dse
+INFO  2020-12-06 12:47:05,264 org.apache.spark.SecurityManager: Changing view acls groups to: 
+INFO  2020-12-06 12:47:05,269 org.apache.spark.SecurityManager: Changing modify acls groups to: 
+INFO  2020-12-06 12:47:05,275 org.apache.spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dse); groups with view permissions: Set(); users  with modify permissions: Set(dse); groups with modify permissions: Set()
+INFO  2020-12-06 12:47:06,219 org.apache.spark.network.client.TransportClientFactory: Successfully created connection to 588fddfe3832/172.17.0.2:42301 after 285 ms (0 ms spent in bootstraps)
+INFO  2020-12-06 12:47:06,428 org.apache.spark.SecurityManager: Changing view acls to: dse
+INFO  2020-12-06 12:47:06,428 org.apache.spark.SecurityManager: Changing modify acls to: dse
+INFO  2020-12-06 12:47:06,428 org.apache.spark.SecurityManager: Changing view acls groups to: 
+INFO  2020-12-06 12:47:06,428 org.apache.spark.SecurityManager: Changing modify acls groups to: 
+INFO  2020-12-06 12:47:06,428 org.apache.spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dse); groups with view permissions: Set(); users  with modify permissions: Set(dse); groups with modify permissions: Set()
+INFO  2020-12-06 12:47:06,561 org.apache.spark.network.client.TransportClientFactory: Successfully created connection to 588fddfe3832/172.17.0.2:42301 after 5 ms (0 ms spent in bootstraps)
+INFO  2020-12-06 12:47:06,679 org.apache.spark.storage.DiskBlockManager: Created local directory at /var/lib/spark/rdd/spark-3fe8c26a-1e10-4b5a-885e-820a369938c1/executor-d3439c62-29ee-461d-8e25-7135298ce046/blockmgr-c659efc0-c57e-4676-ab31-44e4ac8dcfe7
+INFO  2020-12-06 12:47:06,730 org.apache.spark.storage.memory.MemoryStore: MemoryStore started with capacity 366.3 MB
+INFO  2020-12-06 12:47:07,182 org.apache.spark.executor.CoarseGrainedExecutorBackend: Connecting to driver: spark://CoarseGrainedScheduler@588fddfe3832:42301
+INFO  2020-12-06 12:47:07,293 org.apache.spark.executor.CoarseGrainedExecutorBackend: Successfully registered with driver
+INFO  2020-12-06 12:47:07,298 org.apache.spark.executor.Executor: Starting executor ID 11 on host 172.17.0.2
+INFO  2020-12-06 12:47:07,488 org.apache.spark.util.Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 41291.
+INFO  2020-12-06 12:47:07,489 org.apache.spark.network.netty.NettyBlockTransferService: Server created on 172.17.0.2:41291
+INFO  2020-12-06 12:47:07,494 org.apache.spark.storage.BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+INFO  2020-12-06 12:47:07,558 org.apache.spark.storage.BlockManagerMaster: Registering BlockManager BlockManagerId(11, 172.17.0.2, 41291, None)
+INFO  2020-12-06 12:47:07,575 org.apache.spark.storage.BlockManagerMaster: Registered BlockManager BlockManagerId(11, 172.17.0.2, 41291, None)
+INFO  2020-12-06 12:47:07,588 org.apache.spark.storage.BlockManager: external shuffle service port = 7437
+INFO  2020-12-06 12:47:07,591 org.apache.spark.storage.BlockManager: Registering executor with local external shuffle service.
+INFO  2020-12-06 12:47:07,603 org.apache.spark.network.client.TransportClientFactory: Successfully created connection to /172.17.0.2:7437 after 6 ms (0 ms spent in bootstraps)
+INFO  2020-12-06 12:47:07,638 org.apache.spark.storage.BlockManager: Initialized BlockManager: BlockManagerId(11, 172.17.0.2, 41291, None)
+INFO  2020-12-06 14:47:41,336 org.apache.spark.storage.DiskBlockManager: Shutdown hook called
+ BlockManagerId(11, 172.17.0.2, 41291, None)
