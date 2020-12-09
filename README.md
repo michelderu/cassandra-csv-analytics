@@ -269,6 +269,7 @@ Or opening from a fresh terminal:
 ```sh
 docker exec -it my-dse dse spark
 ```
+**You may need to stop the Thriftserver (see above) depending on resources available using `dse spark-sql-thriftserver stop` in the Docker container.**
 
 ## Check connectivity
 Run `:showSchema testdb`.
