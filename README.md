@@ -12,6 +12,9 @@ Once the processing of the data is finished, we end up with ~200000 rows.
 # Solution
 The solution makes use of either Astra (http://astra.datastax.com) or DSE (DataStax Enterprise).  
 There are different paths to a solution here and we're going to investigate three options.
+
+![Data Pipelines](images/data-pipelines.png)
+
 ## Post processing
 Astra is used to implement a post processing solution where the aggregation work is done at query-time on the Cassandra database.  
 DSE is also used in a post processing scenarion, except now the aggregation work is done on a Spark layer.
