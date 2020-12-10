@@ -140,9 +140,9 @@ Use `dsbulk` to load the data into the database.
 ```sh
 dsbulk load \
     -url ./dummy-booking-202001.csv \
-    -b ./secure-connect-micheltest.zip \
-    -u michel \
-    -p kawasaki \
+    -b ./secure-connect-databasename.zip \
+    -u username \
+    -p password \
     -k testdb \
     -t bookings_by_region \
     --schema.mapping "month = month, region = region, country = country, brand = brand, reservations = reservations, room_nights = room_nights"
@@ -297,7 +297,7 @@ In this case we use DataGrip as a DB introspection tool using JDBC to connect to
 From https://www.jetbrains.com/datagrip/ install DataGrip and configure as follows:
 1. New -> User Driver
 2. Select the `CassandraJDBC42.jar` file, select the Class
-3. Use connection string `jdbc:cassandra://localhost:9042;UID=username;PWD=pwassword;`.
+3. Use connection string `jdbc:cassandra://localhost:9042`.
 Run the following CQL to select the resulting aggregation from the database:
 ```sql
 USE testdb;
